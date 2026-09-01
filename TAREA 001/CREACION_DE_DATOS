@@ -1,0 +1,22 @@
+USE veterinaria_cayllahua_db;
+
+INSERT INTO clientes (nombre, apellido, telefono, correo) VALUES
+('Ana', 'Gomez', '987654321', 'ana.gomez@gmail.com'),
+('Carlos', 'Ruiz', '912345678', 'carlos.ruiz@hotmail.com'),
+('Maria', 'Lopez', '955112233', 'maria.lopez@gmail.com'),
+('Lucia', 'Fernandez', '944556677', 'lucia.f@gmail.com'),
+('Juan', 'Perez', '933445566', 'juan.perez@gmail.com');
+
+INSERT INTO mascotas (nombre, especie, raza, edad) VALUES
+('Max', 'Perro', 'Labrador', 3),
+('Luna', 'Gato', 'Siames', 2),
+('Rocky', 'Perro', 'Pastor Aleman', 5),
+('Mia', 'Gato', 'Persa', 1),
+('Coco', 'Perro', 'Chihuahua', 4);
+
+INSERT INTO consultas (fecha_consulta, motivo, diagnostico, costo) VALUES
+('2026-08-01', 'Vacunación', 'Mascota en buen estado', 50.00),
+('2026-08-05', 'Dolor de estómago', 'Gastritis leve', 80.00),
+('2026-08-10', 'Control general', 'Estado saludable', 40.00),
+('2026-08-15', 'Herida en la pata', 'Herida superficial', 70.00),
+('2026-08-20', 'Desparasitación', 'Desparasitación realizada', 45.00);
